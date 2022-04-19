@@ -1,0 +1,12 @@
+.play{
+    position: relative;
+    margin-top: 3.125rem;
+
+    display: flex;
+    flex-direction: column;
+
+    .items{
+        display: flex;
+        justify-content: center;
+    }
+}

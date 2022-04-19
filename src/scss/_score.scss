@@ -1,0 +1,13 @@
+.score-box{
+    padding: .75rem 2.5rem;
+    background-color: #fff;
+    color: $score-text;
+    border-radius: 5px;
+
+    &__score{
+        color: $dark-text;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+
+}

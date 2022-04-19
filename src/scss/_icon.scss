@@ -1,0 +1,49 @@
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid;
+    background-size: 50%;
+}
+.icon-play{
+    &-paper{
+        cursor: pointer;
+        @include icon($imageP,$paper-gradient);
+    }
+    &-scissors{
+        cursor: pointer;
+        @include icon($imageS,$scissors-gradient);
+    }
+    &-rock{
+        cursor: pointer;
+        @include icon($imageR,$rock-gradient);
+    }
+}
+.icon-game{
+    border-color: transparent;
+
+    &-paper{
+        @include icon($imageP,$paper-gradient);
+        
+    }
+    &-scissors{
+        @include icon($imageS,$scissors-gradient);
+    }
+    &-rock{
+        @include icon($imageR,$rock-gradient);
+    }
+}
+
+.icon-house{
+    border-color: transparent;
+
+    &-paper{
+        @include icon($imageP,$paper-gradient);
+    }
+    &-scissors{
+        @include icon($imageS,$scissors-gradient);
+    }
+    &-rock{
+        @include icon($imageR,$rock-gradient);
+    }
+}
