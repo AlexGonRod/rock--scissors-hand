@@ -2,6 +2,12 @@
 
 This repo contains code for rock,paper and scissors game in react.
 
+# Repo
+https://github.com/AlexGonRod/rock--scissors-hand
+
+# App
+
+
 ## Running on localhost
 
 Install dependencies:
