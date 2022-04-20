@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #fff;
+  background: radial-gradient(circle, #1f3756, #141539);
+  text-align: center;
+  box-sizing: border-box; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem; }
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: radial-gradient(circle, #1f3756, #141539);
+  padding: 2rem; }
+  .login-form .title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 2rem; }
+  .login-form .form {
+    display: block;
+    width: 100%; }
+    .login-form .form .button-container {
+      display: flex;
+      justify-content: center;
+      padding: 0rem 0.8rem; }
+      .login-form .form .button-container .submit {
+        margin-top: 1rem;
+        background: #3cdc2e;
+        border: 1px solid #3cdc2e;
+        color: #fff;
+        width: 100%;
+        height: 3rem;
+        font-size: 1.8rem;
+        text-transform: uppercase; }
+    .login-form .form .input-container {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem; }
+      .login-form .form .input-container input[type="text"] {
+        height: 3rem;
+        font-size: 1.8rem;
+        border: 1px solid rgba(0, 0, 0, 0.2); }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  height: 2rem;
+  align-items: center;
+  background: black;
+  width: 100vw; }
+  .nav .back-nav {
+    background-color: #fff;
+    background-image: url("/logout.f7a8a8b7.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: black;
+    width: 20px;
+    height: 20px;
+    background-color: transparent; }
+
+.header {
+  border: 3px solid #606e85;
+  max-width: 43.75rem;
+  width: 100%;
+  margin-top: 1.875rem;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between; }
+  .header .text {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 2rem; }
+
+.play {
+  position: relative;
+  margin-top: 3.125rem;
+  display: flex;
+  flex-direction: column; }
+  .play .items {
+    display: flex;
+    justify-content: center; }
+
+.game {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: nowrap;
+  align-items: center; }
+  .game__you {
+    display: flex;
+    flex-direction: column; }
+    .game__you .text {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-bottom: 2.5rem; }
+  .game__play {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem; }
+    .game__play .text {
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 10px; }
+    .game__play .play-again {
+      background-color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: .8rem; }
+      .game__play .play-again:hover {
+        color: red; }
+  .game__house {
+    display: flex;
+    flex-direction: column; }
+    .game__house .text {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-bottom: 2.5rem; }
+    .game__house .counter {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.3);
+      font-size: 8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+
+.icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid;
+  background-size: 50%; }
+
+.icon-play-paper {
+  cursor: pointer;
+  background-color: #fff;
+  background-image: url("/hand-paper.d3778021.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: #4865f4; }
+
+.icon-play-scissors {
+  cursor: pointer;
+  background-color: #fff;
+  background-image: url("/hand-scissors.d5e68214.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: #ec9e0e; }
+
+.icon-play-rock {
+  cursor: pointer;
+  background-color: #fff;
+  background-image: url("/hand-rock.bcea6f85.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: #dc2e4e; }
+
+.icon-game {
+  border-color: transparent; }
+  .icon-game-paper {
+    background-color: #fff;
+    background-image: url("/hand-paper.d3778021.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: #4865f4; }
+  .icon-game-scissors {
+    background-color: #fff;
+    background-image: url("/hand-scissors.d5e68214.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: #ec9e0e; }
+  .icon-game-rock {
+    background-color: #fff;
+    background-image: url("/hand-rock.bcea6f85.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: #dc2e4e; }
+
+.icon-house {
+  border-color: transparent; }
+  .icon-house-paper {
+    background-color: #fff;
+    background-image: url("/hand-paper.d3778021.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: #4865f4; }
+  .icon-house-scissors {
+    background-color: #fff;
+    background-image: url("/hand-scissors.d5e68214.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: #ec9e0e; }
+  .icon-house-rock {
+    background-color: #fff;
+    background-image: url("/hand-rock.bcea6f85.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: #dc2e4e; }
+
+.score-box {
+  padding: .75rem 2.5rem;
+  background-color: #fff;
+  color: #2a46c0;
+  border-radius: 5px; }
+  .score-box__score {
+    color: #3b4363;
+    font-size: 3.5rem;
+    font-weight: 700; }
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
