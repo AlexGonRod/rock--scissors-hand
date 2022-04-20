@@ -24,7 +24,8 @@
 		"node-sass": "^5.0.0",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
-		"react-router-dom": "^5.2.0"
+		"react-router-dom": "^5.2.0",
+		"parcel-bundler": "^1.12.4"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.12.10",
@@ -36,7 +37,6 @@
 		"@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
 		"enzyme-to-json": "^3.6.2",
 		"jest": "^27.5.1",
-		"parcel-bundler": "^1.12.4",
 		"prettier": "^2.2.1",
 		"sass": "^1.32.5"
 	}
