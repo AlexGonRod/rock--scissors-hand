@@ -5,14 +5,11 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"engines": {
-		"node": "14.x.x",
-		"npm": "8.x.x"
-	},
 	"scripts": {
 		"clean": "rm dist/bundle.js",
 		"start": "parcel src/index.html",
 		"build": "parcel build src/index.html",
+		"postbuild": "workbox generateSW",
 		"test": "jest"
 	},
 	"jest": {
@@ -22,10 +19,10 @@
 	},
 	"dependencies": {
 		"node-sass": "^5.0.0",
+		"parcel-bundler": "^1.12.4",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
-		"react-router-dom": "^5.2.0",
-		"parcel-bundler": "^1.12.4"
+		"react-router-dom": "^5.2.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.12.10",
@@ -38,6 +35,7 @@
 		"enzyme-to-json": "^3.6.2",
 		"jest": "^27.5.1",
 		"prettier": "^2.2.1",
-		"sass": "^1.32.5"
+		"sass": "^1.32.5",
+		"workbox-cli": "^6.5.3"
 	}
 }
