@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> <Home /> renders 1`] = `
+<div
+  className="login-form"
+>
+  <div
+    className="title"
+  >
+    Create new player
+  </div>
+  <div
+    className="form"
+  >
+    <form>
+      <div
+        className="input-container"
+      >
+        <input
+          name="uname"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="button-container"
+      >
+        <Link
+          className="submit"
+          onClick={[Function]}
+          to="/game"
+        >
+          JOIN
+        </Link>
+      </div>
+    </form>
+  </div>
+</div>
+`;

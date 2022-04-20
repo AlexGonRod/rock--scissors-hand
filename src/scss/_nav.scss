@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    height: 2rem;
+    align-items: center;
+    background: black;
+    width: 100vw;
+    .back-nav {
+         @include icon($imageL,black);
+         width: 20px;
+         height:20px;
+         background-color: transparent;
+    }
+}

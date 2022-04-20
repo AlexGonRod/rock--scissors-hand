@@ -7,25 +7,25 @@ const Game = ({ score, myChoice, setScore, computerChoice, counter, setCounter }
 
   const Result = () => {
     if (myChoice === 'rock' && computerChoice === 'scissors') {
-      setPlayerWin('win')
+      setPlayerWin('Win')
       setScore(score + 1)
     } else if (myChoice === 'rock' && computerChoice === 'paper') {
-      setPlayerWin('lose')
+      setPlayerWin('Lose')
       setScore(score - 1)
     } else if (myChoice === 'scissors' && computerChoice === 'paper') {
-      setPlayerWin('win')
+      setPlayerWin('Win')
       setScore(score + 1)
     } else if (myChoice === 'scissors' && computerChoice === 'rock') {
-      setPlayerWin('lose')
+      setPlayerWin('Lose')
       setScore(score - 1)
     } else if (myChoice === 'paper' && computerChoice === 'rock') {
-      setPlayerWin('win')
+      setPlayerWin('Win')
       setScore(score + 1)
     } else if (myChoice === 'paper' && computerChoice === 'scissors') {
-      setPlayerWin('lose')
+      setPlayerWin('Lose')
       setScore(score - 1)
     } else {
-      setPlayerWin('draw')
+      setPlayerWin('Draw')
     }
   };
 
@@ -58,7 +58,7 @@ const Game = ({ score, myChoice, setScore, computerChoice, counter, setCounter }
 					<>
 						<div className="game__play">
 							<span className="text">
-								You {playerWin === 'win' ? 'Win' : playerWin}
+								You {playerWin}
 							</span>
 						</div>
 						<div className="game__house">

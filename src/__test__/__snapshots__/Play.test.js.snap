@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Play /> <Play /> renders 1`] = `
+<Fragment>
+  <Nav />
+  <Header />
+  <div
+    className="play"
+  >
+    <div
+      className="items"
+    >
+      <Icon
+        className="icon icon-play-rock"
+        dataId="rock"
+        key="0"
+        onClick={[Function]}
+      />
+      <Icon
+        className="icon icon-play-paper"
+        dataId="paper"
+        key="1"
+        onClick={[Function]}
+      />
+      <Icon
+        className="icon icon-play-scissors"
+        dataId="scissors"
+        key="2"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</Fragment>
+`;

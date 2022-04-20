@@ -1,10 +1,11 @@
 import React, {useState} from "react";
 import Header from './Header';
+import Nav from './Nav';
 import Game from './Game';
 import Icon from './Icon';
 const choices = ['rock', 'paper', 'scissors'];
 
-const Play = ({ score, setScore }) => {
+const Play = ({ score, setScore, user }) => {
   const [myChoice, setMyChoice] = useState('')
   const [computerChoice, setComputerChoice] = useState('')
 
@@ -14,14 +15,15 @@ const Play = ({ score, setScore }) => {
 		setComputerChoice(choices[Math.floor(Math.random() * 3)])
 	}
   
-	const handlerSetChoice = (e) => {
-    setCounter(2)
+const handlerSetChoice = (e) => {
+    setCounter(1)
     setMyChoice(e.target.dataset.id);
     newHousePick();
-	}
+}
 
   return (
 		<>
+		  <Nav user={user }/>
 			<Header score={score} />
 			<div className="play">
 				<div className="items">

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Nav /> <Nav /> renders 1`] = `
+<div
+  className="nav"
+>
+  <div
+    className="user-text"
+  >
+    <span />
+  </div>
+  <Link
+    className="back-nav"
+    to="/"
+  />
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> <Header /> renders 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="text"
+  >
+    <span>
+      Rock, Paper, Scissors
+    </span>
+  </div>
+  <Score
+    className="score-box__score"
+    text="Score"
+  />
+</div>
+`;

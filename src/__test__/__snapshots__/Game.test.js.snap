@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Game /> <Game /> renders 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="game__you"
+  >
+    <span
+      className="text"
+    >
+      You
+    </span>
+    <Icon
+      className="icon icon-game-undefined"
+      dataId="undefined"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
